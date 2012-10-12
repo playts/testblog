@@ -34,3 +34,13 @@
 3.4 Creating the Database
 
 	$ rake db:create
+
+4.1 Starting up the Web Server
+
+	$ rails server
+
+4.2 Say “Hello”, Rails
+
+	$ rails generate controller home index
+
+在 http://guides.railschina.org/getting_started.html 7.2 Rails 说 Hello" 这部分有出入，搞得我根本就找不到 `app/views/home/index.html.erb`
