@@ -44,3 +44,14 @@
 	$ rails generate controller home index
 
 在 http://guides.railschina.org/getting_started.html 7.2 Rails 说 Hello" 这部分有出入，搞得我根本就找不到 `app/views/home/index.html.erb`
+
+	$ vi app/views/home/index.html.erb
+
+替换内容为：
+
+	<h1>Hello, Rails!</h1>
+
+4.3 Setting the Application Home Page
+
+	$ rm public/index.html
+	$ vi config/routes.rb
