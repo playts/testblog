@@ -55,3 +55,20 @@
 
 	$ rm public/index.html
 	$ vi config/routes.rb
+
+6 Creating a Resource
+
+	$ rails generate scaffold Post name:string title:string content:text
+
+6.1 Running a Migration
+
+	$ rake db:migrate
+
+6.2 Adding a Link
+
+	$ vi app/views/home/index.html.erb
+
+6.5 Adding Some Validation
+
+	$ vi app/models/post.rb
+
