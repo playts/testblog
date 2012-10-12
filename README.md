@@ -72,3 +72,8 @@
 
 	$ vi app/models/post.rb
 
+7.1 Generating a Model
+
+	$ rails generate model Comment commenter:string body:text post:references
+	$ rake db:migrate
+
